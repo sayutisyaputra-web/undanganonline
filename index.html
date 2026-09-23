@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Undangan Pernikahan Andi & Siti">
+
+    <title>Undangan Pernikahan Andi & Siti</title>
+
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         COVER
+    ========================================== -->
+
+    <section
+        class="cover"
+        id="cover">
+
+        <p>
+            THE WEDDING OF
+        </p>
+
+        <h1>
+            Andi &amp; Siti
+        </h1>
+
+        <p>
+            Sabtu, 10 Oktober 2026
+        </p>
+
+        <button
+            type="button"
+            onclick="bukaUndangan()">
+
+            Buka Undangan
+
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================================
+         ISI UNDANGAN
+    ========================================== -->
+
+    <main id="isiUndangan">
+
+
+        <!-- =====================================
+             MUSIK LATAR
+        ====================================== -->
+
+        <audio
+            id="musikUndangan"
+            loop>
+
+            <source
+                src="music/musik.mp3"
+                type="audio/mpeg">
+
+            Browser Anda tidak mendukung
+            pemutar audio.
+
+        </audio>
+
+
+        <div class="kontrol-musik">
+
+            <button
+                type="button"
+                id="tombolMusik"
+                onclick="putarMusik()">
+
+                ♫ Putar Musik
+
+            </button>
+
+        </div>
+
+
+
+        <!-- =====================================
+             MEMPELAI
+        ====================================== -->
+
+        <section class="section">
+
+
+            <p class="subtitle">
+
+                Assalamu'alaikum
+                Warahmatullahi Wabarakatuh
+
+            </p>
+
+
+            <h2>
+                Andi &amp; Siti
+            </h2>
+
+
+            <div class="foto-pengantin">
+
+
+                <img
+                    src="images/foto1.jpeg"
+                    alt="Foto pengantin pertama">
+
+
+                <img
+                    src="images/foto2.jpeg"
+                    alt="Foto pengantin kedua">
+
+
+            </div>
+
+
+            <p>
+
+                Dengan memohon rahmat dan ridho Allah SWT,
+                kami bermaksud mengundang Bapak/Ibu/Saudara/i
+                untuk hadir dalam acara pernikahan kami.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =====================================
+             DETAIL ACARA
+        ====================================== -->
+
+        <section
+            class="acara"
+            id="acara">
+
+
+            <div class="acara-header">
+
+                <h2>
+                    Detail Acara
+                </h2>
+
+                <p class="subtitle">
+
+                    Dengan penuh kebahagiaan,
+                    kami mengundang Anda untuk hadir
+                    di hari istimewa kami.
+
+                </p>
+
+            </div>
+
+
+            <div class="acara-container">
+
+
+                <!-- AKAD NIKAH -->
+
+                <div class="acara-card">
+
+                    <div class="icon">
+                        💍
+                    </div>
+
+                    <h3>
+                        Akad Nikah
+                    </h3>
+
+                    <p class="tanggal">
+                        Sabtu, 10 Oktober 2026
+                    </p>
+
+                    <p>
+                        09.00 WIB - Selesai
+                    </p>
+
+                    <p>
+                        Gedung Pernikahan
+                    </p>
+
+                    <p>
+                        Pangkalan Batang,
+                        Kecamatan Bengkalis,
+                        Kabupaten Bengkalis,
+                        Riau
+                    </p>
+
+                </div>
+
+
+
+                <!-- RESEPSI -->
+
+                <div class="acara-card">
+
+                    <div class="icon">
+                        🥂
+                    </div>
+
+                    <h3>
+                        Resepsi
+                    </h3>
+
+                    <p class="tanggal">
+                        Sabtu, 10 Oktober 2026
+                    </p>
+
+                    <p>
+                        11.00 WIB - 14.00 WIB
+                    </p>
+
+                    <p>
+                        Gedung Pernikahan
+                    </p>
+
+                    <p>
+                        Pangkalan Batang,
+                        Kecamatan Bengkalis,
+                        Kabupaten Bengkalis,
+                        Riau
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             COUNTDOWN
+        ====================================== -->
+
+        <section
+            class="section countdown-section">
+
+
+            <p class="subtitle">
+                MENUJU HARI BAHAGIA
+            </p>
+
+
+            <h2>
+                Wedding Countdown
+            </h2>
+
+
+            <p class="tanggal-countdown">
+                Sabtu, 10 Oktober 2026
+            </p>
+
+
+            <div class="countdown-container">
+
+
+                <!-- HARI -->
+
+                <div class="countdown-box">
+
+                    <span id="hari">
+                        00
+                    </span>
+
+                    <p>
+                        Hari
+                    </p>
+
+                </div>
+
+
+                <!-- JAM -->
+
+                <div class="countdown-box">
+
+                    <span id="jam">
+                        00
+                    </span>
+
+                    <p>
+                        Jam
+                    </p>
+
+                </div>
+
+
+                <!-- MENIT -->
+
+                <div class="countdown-box">
+
+                    <span id="menit">
+                        00
+                    </span>
+
+                    <p>
+                        Menit
+                    </p>
+
+                </div>
+
+
+                <!-- DETIK -->
+
+                <div class="countdown-box">
+
+                    <span id="detik">
+                        00
+                    </span>
+
+                    <p>
+                        Detik
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <p
+                id="pesanCountdown"
+                class="pesan-countdown">
+            </p>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             LOKASI
+        ====================================== -->
+
+        <section
+            class="lokasi-section"
+            id="lokasi">
+
+
+            <div class="lokasi-header">
+
+
+                <span class="lokasi-icon">
+                    📍
+                </span>
+
+
+                <h2>
+                    Detail Lokasi
+                </h2>
+
+
+                <p>
+
+                    Kami menantikan kehadiran Anda
+                    di hari istimewa kami.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="lokasi-card">
+
+
+                <!-- GOOGLE MAP -->
+
+                <div class="map-container">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.151261576892!2d102.12185044178959!3d1.4735531367698698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1600706bc73b1%3A0x69bcf3d58ca3e326!2sBengkalis%2C%20Pangkalan%20Batang%2C%20Kec.%20Bengkalis%2C%20Kabupaten%20Bengkalis%2C%20Riau!5e0!3m2!1sid!2sid!4v1790045871991!5m2!1sid!2sid"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+
+                </div>
+
+
+
+                <!-- INFORMASI LOKASI -->
+
+                <div class="lokasi-info">
+
+                    <h3>
+                        Bengkalis
+                    </h3>
+
+
+                    <p>
+
+                        Pangkalan Batang,
+                        Kecamatan Bengkalis,
+                        Kabupaten Bengkalis,
+                        Riau
+
+                    </p>
+
+
+                    <a
+                        href="https://maps.app.goo.gl/XJakZGLZ4Hwype8N8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-lokasi">
+
+                        📍 Buka Google Maps
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             GALERI FOTO
+        ====================================== -->
+
+        <section
+            class="galeri-section"
+            id="galeri">
+
+
+            <div class="galeri-header">
+
+
+                <span class="galeri-icon">
+                    📸
+                </span>
+
+
+                <h2>
+                    Galeri Foto
+                </h2>
+
+
+                <p>
+
+                    Momen-momen indah yang menjadi bagian
+                    dari perjalanan cinta kami.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="galeri-grid">
+
+
+                <!-- FOTO 1 -->
+
+                <div class="galeri-item">
+
+                    <img
+                        src="images/foto1.jpeg"
+                        alt="Foto Pengantin 1"
+                        onclick="bukaFoto(this)">
+
+                </div>
+
+
+
+                <!-- FOTO 2 -->
+
+                <div class="galeri-item">
+
+                    <img
+                        src="images/foto1.jpeg"
+                        alt="Foto Pengantin 2"
+                        onclick="bukaFoto(this)">
+
+                </div>
+
+
+
+                <!-- FOTO 3 -->
+
+                <div class="galeri-item">
+
+                    <img
+                        src="images/foto1.jpeg"
+                        alt="Foto Pengantin 3"
+                        onclick="bukaFoto(this)">
+
+                </div>
+
+
+
+                <!-- FOTO 4 -->
+
+                <div class="galeri-item">
+
+                    <img
+                        src="images/foto1.jpeg"
+                        alt="Foto Pengantin 4"
+                        onclick="bukaFoto(this)">
+
+                </div>
+
+
+
+                <!-- FOTO 5 -->
+
+                <div class="galeri-item">
+
+                    <img
+                        src="images/foto1.jpeg"
+                        alt="Foto Pengantin 5"
+                        onclick="bukaFoto(this)">
+
+                </div>
+
+
+
+                <!-- FOTO 6 -->
+
+                <div class="galeri-item">
+
+                    <img
+                        src="images/foto1.jpeg"
+                        alt="Foto Pengantin 6"
+                        onclick="bukaFoto(this)">
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             KISAH CINTA
+        ====================================== -->
+
+        <section
+            class="kisah-section"
+            id="kisah">
+
+
+            <div class="kisah-header">
+
+
+                <span class="kisah-icon">
+                    💕
+                </span>
+
+
+                <h2>
+                    Kisah Cinta Kami
+                </h2>
+
+
+                <p>
+
+                    Setiap perjalanan memiliki cerita.
+                    Inilah beberapa momen yang membawa kami
+                    sampai ke hari istimewa ini.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="timeline">
+
+
+                <!-- CERITA 1 -->
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-tahun">
+                        2022
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Pertama Bertemu
+                        </h3>
+
+                        <p>
+
+                            Berawal dari sebuah pertemuan sederhana,
+                            kami mulai mengenal satu sama lain.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CERITA 2 -->
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-tahun">
+                        2023
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Mulai Berkomitmen
+                        </h3>
+
+                        <p>
+
+                            Seiring waktu, kami semakin dekat
+                            dan memutuskan untuk menjalani
+                            perjalanan ini bersama.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CERITA 3 -->
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-tahun">
+                        2025
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Lamaran
+                        </h3>
+
+                        <p>
+
+                            Dengan penuh kebahagiaan,
+                            kami memantapkan hati untuk melangkah
+                            ke jenjang yang lebih serius.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CERITA 4 -->
+
+                <div class="timeline-item">
+
+
+                    <div class="timeline-tahun">
+                        2026
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Hari Pernikahan
+                        </h3>
+
+                        <p>
+
+                            Dua hati, satu janji, dan satu
+                            perjalanan baru sebagai pasangan.
+                            Mohon doa restu untuk kebahagiaan kami.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             RSVP & UCAPAN
+        ====================================== -->
+
+        <section
+            class="rsvp-section"
+            id="rsvp">
+
+
+            <!-- HEADER RSVP -->
+
+            <div class="rsvp-header">
+
+
+                <span class="rsvp-icon">
+                    💌
+                </span>
+
+
+                <h2>
+                    RSVP &amp; Ucapan
+                </h2>
+
+
+                <p>
+
+                    Kehadiran dan doa restu Anda merupakan
+                    kebahagiaan bagi kami.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="rsvp-container">
+
+
+                <!-- =================================
+                     FORM RSVP
+                ================================== -->
+
+                <div class="rsvp-card">
+
+
+                    <h3>
+                        Konfirmasi Kehadiran
+                    </h3>
+
+
+                    <form
+                        id="rsvpForm">
+
+
+                        <!-- NAMA -->
+
+                        <div class="form-group">
+
+
+                            <label for="nama">
+                                Nama
+                            </label>
+
+
+                            <input
+                                type="text"
+                                id="nama"
+                                placeholder="Masukkan nama Anda"
+                                autocomplete="name"
+                                required>
+
+
+                        </div>
+
+
+
+                        <!-- KEHADIRAN -->
+
+                        <div class="form-group">
+
+
+                            <label for="kehadiran">
+                                Konfirmasi Kehadiran
+                            </label>
+
+
+                            <select
+                                id="kehadiran"
+                                required>
+
+
+                                <option value="">
+                                    Pilih kehadiran
+                                </option>
+
+
+                                <option value="Hadir">
+                                    Hadir
+                                </option>
+
+
+                                <option value="Tidak Hadir">
+                                    Tidak Hadir
+                                </option>
+
+
+                            </select>
+
+
+                        </div>
+
+
+
+                        <!-- JUMLAH TAMU -->
+
+                        <div class="form-group">
+
+
+                            <label for="jumlah">
+                                Jumlah Tamu
+                            </label>
+
+
+                            <select id="jumlah">
+
+
+                                <option value="1">
+                                    1 Orang
+                                </option>
+
+
+                                <option value="2">
+                                    2 Orang
+                                </option>
+
+
+                            </select>
+
+
+                        </div>
+
+
+
+                        <!-- UCAPAN -->
+
+                        <div class="form-group">
+
+
+                            <label for="ucapan">
+                                Ucapan &amp; Doa
+                            </label>
+
+
+                            <textarea
+                                id="ucapan"
+                                rows="4"
+                                placeholder="Tuliskan ucapan dan doa untuk kami..."
+                                required></textarea>
+
+
+                        </div>
+
+
+
+                        <!-- TOMBOL -->
+
+                        <button
+                            type="submit"
+                            class="btn-rsvp">
+
+                            💌 Kirim RSVP
+
+                        </button>
+
+
+                    </form>
+
+
+                </div>
+
+
+
+                <!-- =================================
+                     DAFTAR UCAPAN
+                ================================== -->
+
+                <div class="ucapan-card">
+
+
+                    <h3>
+                        Ucapan &amp; Doa
+                    </h3>
+
+
+                    <div id="daftarUcapan">
+
+                        <p class="memuat-ucapan">
+                            Memuat ucapan...
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             LIGHTBOX FOTO
+        ====================================== -->
+
+        <div
+            id="lightbox"
+            class="lightbox"
+            onclick="tutupFoto()">
+
+
+            <span class="tutup-lightbox">
+                &times;
+            </span>
+
+
+            <img
+                id="fotoBesar"
+                src=""
+                alt="Foto">
+
+        </div>
+
+
+
+        <!-- =====================================
+             PENUTUP
+        ====================================== -->
+
+        <section class="section">
+
+
+            <h2>
+                Terima Kasih
+            </h2>
+
+
+            <p>
+
+                Merupakan suatu kehormatan dan kebahagiaan
+                bagi kami apabila Bapak/Ibu/Saudara/i
+                berkenan hadir dan memberikan doa restu.
+
+            </p>
+
+
+            <p>
+
+                Wassalamu'alaikum
+                Warahmatullahi Wabarakatuh
+
+            </p>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
