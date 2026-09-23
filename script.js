@@ -11,7 +11,7 @@
 // URL WEB APP GOOGLE APPS SCRIPT
 // HARUS menggunakan /exec
 const RSVP_URL =
-    "https://script.google.com/macros/s/AKfycbyFxecJVvxeaT_uTG1nIJaIZTwuEdEsbdG9FtY9pNU/exec";
+    "https://script.google.com/macros/s/AKfycbymG-vxJCukXMD86nG4TSiBkmJryeojVEadrzV1eDqbT4E65fUQ6kyjM2oAMgptvzL6/exec";
 
 
 // Tanggal dan waktu pernikahan
